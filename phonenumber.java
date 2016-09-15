@@ -2,7 +2,7 @@
 A really cool example using conditions
 */
 
-public class PhoneNumber.java
+public class PhoneNumber
 {
   // field vars
   private String phoneNumber;
@@ -21,7 +21,7 @@ public class PhoneNumber.java
     //if areaCode is bad, tell user to input something else.
     if (areaCode < 100 || areaCode > 999)
     {
-
+      System.err.println("Please use a valid number")
     }
     phoneNumber =  areaCode+ "-" + numBegin + "-"
  + numEnd;
